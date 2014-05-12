@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/guide_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/guide_image" />
+
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="@dimen/enter_width"
+        android:layout_height="@dimen/enter_height"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="@string/enter"
+        android:visibility="gone" />
+
+</FrameLayout>
